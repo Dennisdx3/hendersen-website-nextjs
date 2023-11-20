@@ -1,0 +1,72 @@
+/* eslint-disable react/no-unescaped-entities */
+import "../../../globals.css";
+
+import Image from "next/image";
+import portrait from "../../../../public/dennis_big.jpg";
+
+export const metadata = {
+  title: "Hendersen",
+  description: "Hendersen Taxand",
+};
+
+const Services = () => {
+  return (
+    <>
+      <div>
+        <div>
+          <section className="mb-5">
+            <h2 className="mt-5 mb-10 text-black text-2xl">徐钟华</h2>
+            <div className="grid sm:grid-cols-2 mb-20">
+              <section>
+                <Image
+                  src={portrait}
+                  alt="Dennis Xu"
+                  className="shadow-lg shadow-slate-700 rounded-lg"
+                />
+              </section>
+              <section className=" text-black ml-10 hidden sm:block">
+                <p>主管合伙人</p>
+                <p>中国注册税务师, 中国注册会计师</p>
+                <div>
+                  <a
+                    href="mailto:dennis.xu@hendersen.com"
+                    className="flex hover:font-bold"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="w-6 h-6 mr-2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                      />
+                    </svg>
+                    dennis.xu@hendersen.com
+                  </a>
+                </div>
+              </section>
+            </div>
+            <p>
+              徐钟华先生是上海汉森企业管理咨询有限公司创始人。他在商业咨询行业有20多年的从业经验，
+              是中国企业税收、吸收合并、国际税收咨询以及投资顾问等领域的领军人物。此外，
+              通过参与多家私募股权公司，证券投资公司和创业公司的运营，徐钟华先生对国内和跨境投资及业务运营积累了丰富的经验。
+            </p>
+            <p>
+              徐钟华先生毕业于上海外国语大学。毕业之初，他先后就职于安达信会计师事务所和普华永道会计师事务所。随后，
+              他进入通用电气担任中国区税务经理。2004年，徐钟华先生创立了上海汉森企业管理咨询有限公司。
+              该公司目前是国际税务师联盟Taxand在中国的成员公司。此外，徐钟华先生于2008年至2015年期间担任Taxand
+              董事会成员。
+            </p>
+          </section>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Services;
