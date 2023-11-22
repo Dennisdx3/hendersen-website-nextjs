@@ -9,6 +9,7 @@ import frank from "../../public/6.png";
 import Cards from "../trends/trends";
 import NavbarCN from "../components/NavbarCN";
 import FootCN from "../components/FootCN";
+import ChatUI from "../chat-ui/chat-ui";
 
 export default function Home() {
   return (
@@ -331,6 +332,7 @@ export default function Home() {
             </a>
           </span>
         </main>
+
         <FootCN />
       </div>
     </>

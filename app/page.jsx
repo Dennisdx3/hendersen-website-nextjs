@@ -9,7 +9,7 @@ import frank from "../public/6.png";
 import Cards from "./trends/trends";
 import Navbar from "./components/Navbar";
 import Foot from "./components/Foot";
-import { ChatUI } from "./chat-ui/chat-ui";
+import ChatUI from "./chat-ui/chat-ui";
 
 export default function Home() {
   return (
@@ -333,7 +333,7 @@ export default function Home() {
           </span>
         </main>
         <div
-          className={`min-h-screen fixed bottom-5 right-0 items-end hidden md:flex`}
+          className={`min-h-fit fixed bottom-5 right-0 items-end hidden md:flex`}
         >
           <ChatUI />
         </div>

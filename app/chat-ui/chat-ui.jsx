@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import { Header } from "./header";
 
-export const ChatUI = () => {
+export default function ChatUI() {
   const [userMessage, setUsermessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [aiMessage, setAImessage] = useState("");
@@ -42,7 +42,7 @@ export const ChatUI = () => {
   };
 
   return (
-    <div className="w-[350px] bg-slate-800 rounded-lg overflow-hidden text-slate-400 p-5 gap-5 flex flex-col border border-blue-800/40 shadow-2xl shadow-blue-900/30 text-xs">
+    <div className="w-[350px] bg-slate-800 opacity-90 rounded-lg overflow-hidden text-slate-400 p-5 gap-5 flex flex-col border border-blue-800/40 shadow-2xl shadow-blue-900/30 text-xs">
       <Header />
       <div className="text-slate-50 max-h-[50vh] overflow-y-auto">
         {aiMessage}
@@ -63,11 +63,11 @@ export const ChatUI = () => {
         ></input>
         <button
           type="submit"
-          className="hover:bg-slate-600 cursor-pointer outline outline-1 outline-offset-4 outline-slate-800 text-white items-center border border-x-slate-700 border-b-slate-700 border-t-slate-600 bg-slate-700 shadow-md justify-center flex rounded-xl p-4"
+          className="hover:bg-slate-600 cursor-pointer outline outline-1 outline-offset-4 outline-slate-800 text-white items-center border border-x-slate-700 border-b-slate-700 border-t-slate-600 bg-slate-700 opacity-80 shadow-md justify-center flex rounded-xl p-4"
         >
           {isLoading ? "⏳" : "🚀"}
         </button>
       </form>
     </div>
   );
-};
+}
