@@ -39,7 +39,7 @@ const Upload: NextPage<Props> = ({ dirs }) => {
       }
       setUploading(false);
     }
-    alert("上传成功！Image Uploaded!");
+    alert("上传成功！File Uploaded!");
     location.reload();
   };
 

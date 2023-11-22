@@ -27,7 +27,14 @@
     "**/*.tsx",
     "app/trends/page.jsx",
     "pages/api/handleJSON.ts",
-    "app/test/index.jsx"
+    "app/test/index.jsx",
+    "app/page.jsx",
+    "app/api/openai/route.js",
+    "app/api/openai/route.js",
+    "pages/api/openai.js",
+    "app/chat-ui/header.jsx",
+    "app/chat-ui/chat-ui.jsx",
+    "app/chat-ui/prompt-input.jsx"
   ],
   "exclude": ["node_modules"]
 }

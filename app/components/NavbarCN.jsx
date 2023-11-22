@@ -66,7 +66,7 @@ const Navbar = () => {
           </svg>
         </a>
         <Link href="/" className="mr-8">
-          English
+          En
         </Link>
       </nav>
     </>
