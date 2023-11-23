@@ -333,7 +333,7 @@ export default function Home() {
           </span>
         </main>
         <div
-          className={`min-h-fit fixed bottom-5 right-0 items-end hidden md:flex`}
+          className={`min-h-fit ml-8 sm:fixed bottom-5 right-0 items-end sm:flex`}
         >
           <ChatUI />
         </div>

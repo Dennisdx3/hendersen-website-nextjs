@@ -9,7 +9,7 @@ import frank from "../../public/6.png";
 import Cards from "../trends/trends";
 import NavbarCN from "../components/NavbarCN";
 import FootCN from "../components/FootCN";
-import ChatUI from "../chat-ui/chat-ui";
+import ChatUI from "../chat-ui/chat-uiCN";
 
 export default function Home() {
   return (
@@ -266,7 +266,7 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="my-3">
-                  <a href="/people/kevinWang" className=" hover:text-black">
+                  <a href="/cn/people/kevinWang" className=" hover:text-black">
                     <Image
                       src={kevin}
                       alt="Dennis"
@@ -290,7 +290,7 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="my-3">
-                  <a href="/people/eveXiao" className=" hover:text-black">
+                  <a href="/cn/people/eveXiao" className=" hover:text-black">
                     <Image
                       src={eve}
                       alt="Eve"
@@ -332,7 +332,11 @@ export default function Home() {
             </a>
           </span>
         </main>
-
+        <div
+          className={`min-h-fit ml-8 sm:fixed bottom-5 right-0 items-end sm:flex`}
+        >
+          <ChatUI />
+        </div>
         <FootCN />
       </div>
     </>

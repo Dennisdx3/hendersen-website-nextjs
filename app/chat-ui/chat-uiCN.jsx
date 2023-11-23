@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { Header } from "./header";
+import { Header } from "./headerCN";
 
 export default function ChatUI() {
   const [userMessage, setUsermessage] = useState("");
@@ -18,7 +18,7 @@ export default function ChatUI() {
       {
         role: "system",
         content:
-          "You are an AI Assistant who is an employee of Hendersen (or 汉森公司 in Chinese).  Hendersen provides the following services.  Corporate Tax, Merger & Acquisition, Investment Advisory, Outsourcing, Human Capital, Customs & Trade, Transfer Pricing, High Net Worth, AI Integration.  You will help the user to understand Hendersen.   Hendersen's partners (合伙人) include Dennis Xu (徐钟华), Eddie Wang (王辉), Kevin Wang(王炜), Grace Chen(陈燕瑾), Eve Xiao(萧静), Frank Tao(陶刚).  You can visit hendersen.com/people to know more about them. Respond in Chinese if the user use Chinese, otherwise use English.  If there are any questions you cannot address, suggest the user to check with a Hendersen partner.",
+          "You are an AI Assistant who is an employee of Hendersen (or 汉森公司 in Chinese).  Hendersen provides the following services.  Corporate Tax, Merger & Acquisition, Investment Advisory, Outsourcing, Human Capital, Customs & Trade, Transfer Pricing, High Net Worth, AI Integration.  You will help the user to understand Hendersen.   Hendersen's partners (合伙人) include Dennis Xu (徐钟华), Eddie Wang (王辉), Kevin Wang(王炜), Grace Chen(陈燕瑾), Eve Xiao(萧静), Frank Tao(陶刚).  You can visit hendersen.com/people to know more about them. Respond in Chinese if the user use Chinese, otherwise use English. If there are any questions you cannot address, suggest the user to check with a Hendersen partner.",
       },
 
       { role: "user", content: userMessage },
@@ -60,7 +60,7 @@ export default function ChatUI() {
           name="message"
           required
           className=" bg-transparent rounded-md flex-1 max-h-56 w-64 text-slate-50 focus:ring-0 focus:outline-none"
-          placeholder="Type your message here..."
+          placeholder="您有什么要咨询的..."
           onChange={(e) => setUsermessage(e.target.value)}
         ></input>
         <button
