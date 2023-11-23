@@ -17,7 +17,7 @@ function Foot() {
       </div>
       <br></br>
       <div>
-        <h4>
+        <h4 className="text-xs">
           Copyright © 2004- 2023 | Hendersen Consulting Co. Ltd. All rights
           reserved.{" "}
         </h4>
