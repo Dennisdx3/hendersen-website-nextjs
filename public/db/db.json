@@ -68,5 +68,19 @@
     "date": "2023-12-20",
     "image_link": "20231220cover.png",
     "html_link": "20231220Newsletter.html"
+  },
+  {
+    "id": "20240130",
+    "title": "Hendersen launches experimental AI assistant",
+    "date": "2024-1-30",
+    "image_link": "20240130cover.png",
+    "html_link": "20240130Wechat.html"
+  },
+  {
+    "id": "20240207",
+    "title": "Transfer Pricing Guide 2024",
+    "date": "2024-2-7",
+    "image_link": "tpGuideCover.png",
+    "html_link": "2024TPGuide.html"
   }
 ]
