@@ -82,5 +82,19 @@
     "date": "2024-2-7",
     "image_link": "tpGuideCover.png",
     "html_link": "2024TPGuide.html"
+  },
+  {
+    "id": "20240308",
+    "title": "6月19日至21日！Taxand全球会议将在西班牙马拉加举行！",
+    "date": "2024-3-8",
+    "image_link": "20240308cover.png",
+    "html_link": "20240308globalConference.html"
+  },
+  {
+    "id": "20240326",
+    "title": "Taxand Global 网络研讨会： 消费品行业转让定价的全球视角",
+    "date": "2024-3-26",
+    "image_link": "20240326cover.png",
+    "html_link": "20240326.html"
   }
 ]
