@@ -8,7 +8,7 @@ export default async function GPT(req, res) {
 
   const client = new OpenAIClient(base, new AzureKeyCredential(key));
 
-  const deploymentId = "dennisgpt35";
+  const deploymentId = "gpt-4o";
 
   const messages = body;
 
